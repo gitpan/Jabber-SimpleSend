@@ -1,0 +1,5 @@
+MANIFEST
+Makefile.PL
+SimpleSend.pm
+t/Jabber-SimpleSend.t
+README
