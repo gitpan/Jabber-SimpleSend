@@ -10,7 +10,7 @@ use Net::Jabber qw(Client);
 
 our @ISA =qw( Exporter );
 our @EXPORT_OK = qw( send_jabber_message );
-our $VERSION='0.01';
+our $VERSION='0.02';
 
 sub send_jabber_message {
 
@@ -136,8 +136,14 @@ authors for proving the usefulness of ::Simple modules.
 
 =head1 AUTHOR
 
-Greg McCarroll
-E-mail: greg@mccarroll.demon.co.uk
-Jabber: greg@jabber.mccarroll.org.uk
+Greg McCarroll <greg@mccarroll.org.uk>
+
+=head1 COPYRIGHT
+
+Copyright 2006 by Greg McCarroll <greg@mccarroll.org.uk>
+
+This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+
+See http://www.perl.com/perl/misc/Artistic.html
 
 =cut

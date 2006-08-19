@@ -1,5 +1,7 @@
+CHANGES
 MANIFEST
-Makefile.PL
-SimpleSend.pm
-t/Jabber-SimpleSend.t
 README
+Makefile.PL
+lib/Jabber/SimpleSend.pm
+t/Jabber-SimpleSend.t
+META.yml                                 Module meta-data (added by MakeMaker)
