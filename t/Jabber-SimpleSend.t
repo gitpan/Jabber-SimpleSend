@@ -1,7 +1,12 @@
 #!perl
+
 use strict;
+use warnings;
+
 #use Sys::Hostname;
 #use LWP;
+
+# n.b. THE TESTING SERVER IS NOT CURRENTLY OPERATIONAL
 
 #BEGIN { die "Cannot run tests with test_config" unless (-f 't/test_config'); }
 
@@ -16,11 +21,11 @@ use Test::More tests => 1;
 BEGIN { use_ok( 'Jabber::SimpleSend',qw( send_jabber_message ) ) }
 
 #send_jabber_message({
-                       user     => $user,
-                       password => $password,
-                       target   => 'jsst@jabber.mccarroll.org.uk',
-                       subject  => 'testing',
-                       message  => $string});
+#                       user     => $user,
+#                       password => $password,
+#                       target   => 'jsst@jabber.mccarroll.org.uk',
+#                       subject  => 'testing',
+#                       message  => $string});
 
 
 #print STDERR "\nSleeping for 5 seconds to allow the bot to do its work\n";
